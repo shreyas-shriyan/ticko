@@ -6,7 +6,10 @@ function start(){
     script_display.setAttribute('class','col-9')
     script_display.value = "<script scr = "+"https://cdn.jsdelivr.net/gh/shreyas-shriyan/ticko/script.js"+" type = "+"text/javascript"+"></script>"
     var temp = JSON.parse(localStorage.getItem('customer_details'))
-
+    if(!temp){
+        /*do nothing*/
+    }
+    else{
         console.log('found')
         var tr = document.createElement('tr')
         var td_email = document.createElement('td')
@@ -19,6 +22,8 @@ function start(){
         tr.append(td_category)
         tr.append(td_issue)
         element.append(tr)
+    }
+    
         
 
 }
