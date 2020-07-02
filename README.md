@@ -1,4 +1,4 @@
-### Ticko : https://ticko.netlify.app
+# Ticko : https://ticko.netlify.app
 ## A no code ticket management solution.|Support customers without writing code.
 ![Awesome](https://img.shields.io/badge/Tech%20used-html%20%7C%20javascript%20%7C%20bootstrap-brightgreen)
 ### Preview:
